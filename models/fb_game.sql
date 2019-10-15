@@ -4,7 +4,5 @@
 
 select * from source_data.game
 
-# comment here
-# commenty mccommentator
-# word-smithery
-# add new comment
+# deleted all previous comments
+# kristis comment
