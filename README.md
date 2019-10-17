@@ -16,7 +16,7 @@ dbt model folder structure:
 4. analysis
 
 - models
-|_stage
+|_ stage
 |  |_ stripe
 |  |	|_ stg_stripe_charges.sql
 |  |	|_ stg_stripe_charges.sql
