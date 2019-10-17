@@ -14,4 +14,32 @@ dbt model folder structure:
 2. transform (prefix: tx_)
 3. entities (prefix: dim_/fct_)
 4. analysis
+
+- models
+|_stage
+|  |_ stripe
+|  |	|_ stg_stripe_charges.sql
+|  |	|_ stg_stripe_charges.sql
+|  |
+|  |_ advisor_suite
+|
+|_ transform
+|  |_ stripe
+|  |	|_ tx_current_stripe_changes.sql
+|  |	|_ tx_current_stripe_changes_refund.sql
+|  |
+|  |_ advisor_suite
+|
+|_ entities
+|  |_ stripe
+|  |	|_ dim_stripe_changes.sql
+|  |	|_ fct_stripe_changes.sql
+|  |
+|  |_ advisor_suite
+|
+|_ analysis
+   |_ stripe
+	|_ report1.sql
+	|_ report2.sql
+
 ---
